@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport content="width=device-width,intial-scale=1">
+<meta name="viewport" content="width=device-width intial-scale=1">
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/main.css">
 <title>Exercise 7 Responsive Grid</title>
@@ -47,7 +47,7 @@
                     <p>
                         Fluid layouts are created using percentage width measurements so that elements resize proportionally to fill the available width of the screen or window.
                     </p>
-                    <p>Images need to scale down to fit the width of the container they are in. If the container is larger than the image—for example, in the tablet or desktop layouts—the image does not scale larger; it stops at 100% of its original size.
+                    <p>Images need to scale down to fit the width of the container they are in. If the container is larger than the image&mdash;for example, in the tablet or desktop layouts—the image does not scale larger; it stops at 100% of its original size.
                     </p>
                 </div>
             </div>
@@ -61,7 +61,7 @@
             <div class="col-sm-7 col-md-10 col-lg-8">
                 <div>
                     <p>To fit standard websites onto small screens, mobile browsers render the page on a canvas called the viewport and then shrink that viewport down to fit the width of the screen (device width).</p>
-                    <p>To fit standard websites onto small screens, mobile browsers render the page on a canvas called the viewport and then shrink that viewport down to fit the width of the screen (device width). This line tells the browser to set the width of the viewport equal to the width of the device screen (width=device-width), whatever that happens to be. The initial-scale sets the zoom level to 1 (100%).</p>
+                    <p>To fit standard websites onto small screens, mobile browsers render the page on a canvas called the viewport and then shrink that viewport down to fit the width of the screen (device width). This line tells the browser to set the width of the viewport equal to the width of the device screen (width=device&mdash;width), whatever that happens to be. The initial&mdash;scale sets the zoom level to 1 (100%).</p>
                 </div>
             </div>
         </div>
@@ -98,17 +98,21 @@
             </div>
             <div class="col-sm-4 col-md-2 col-lg-11">
                 <div>
-                    <p>Although some developers prefer pixel font measurements for the precise control they offer, the predominant attitude is that they are too rigid and that relative measurements (em and %) are more appropriate to the medium. As long as we are kicking px to the curb, all of the absolute units—such as pt, pc, in, mm, and cm—are out because they are irrelevant on screens (although they may be useful for print style sheets).</p>
+                    <p>Although some developers prefer pixel font measurements for the precise control they offer, the predominant attitude is that they are too rigid and that relative measurements (em and %) are more appropriate to the medium. As long as we are kicking px to the curb, all of the absolute units&mdash;such as pt, pc, in, mm, and cm&mdash;are out because they are irrelevant on screens (although they may be useful for print style sheets).</p>
                 </div>
             </div>
         </div>
 
         <div class="row">
             <div class="col-sm-12 col-md-5 col-lg-6">
-                <img src="img/coloredpencils.jpg" alt="" class="img-responsive">
+                <img src="img/colored-pencils.jpg" alt="" class="img-responsive" data-rjs="2">
             </div>
         </div>
-</body>
+    </div>
 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="js/retina.js"></script>
+</body>
 
 </html>

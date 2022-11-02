@@ -44,10 +44,13 @@
 /* ----- TYPOGRAPHY ----- */
 h1 {
         font-size: 75px;
-        font-family: 'Open Sans', sans-serif;
         text-align: center;
 }
 
+h2 {
+        font-size: 45px;
+        text-align: left;
+}
 
 /* ----- IMAGE----- */
 
@@ -206,11 +209,11 @@ h1 {
 #bg-hand {
         background: url(../img/hand.jpg) no-repeat center;
         background-size: cover;
-        -webkit-box-sizing: cover;
-        -ms-box-sizing: cover;
         -o-box-sizing: cover;
         -moz-box-sizing: cover;
-        box-sizing: cover;
+        -webkit-box-sizing: cover;
+        -ms-box-sizing: cover;
+        box-sizing: border-box;
         background-clip: content-box;
 }
 
