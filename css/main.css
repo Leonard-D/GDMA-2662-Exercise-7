@@ -36,19 +36,21 @@
         -ms-box-sizing: border-box;
         box-sizing: border-box;
 }
-
+html {
+        font-size: 0.9rem;
+}
 /*--------------------------------------------------------------
     4.0 - ELEMENTS
 -------------------------------------------------------------- */
 
 /* ----- TYPOGRAPHY ----- */
 h1 {
-        font-size: 75px;
+        font-size: 5rem;
         text-align: center;
 }
 
 h2 {
-        font-size: 45px;
+        font-size: 3rem;
         text-align: left;
 }
 
@@ -117,6 +119,9 @@ h2 {
         width: calc(100% * 12 / 12);
 }
 @media screen and (min-width: 768px) {
+        html {
+                font-size: 1rem;
+        }
         .wrapper {
                 width: 80%;
         }
